@@ -1,0 +1,119 @@
+
+/* Page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F8F4FA;
+    color: #55445F;
+}
+
+/* Header */
+header {
+    background-color: #E9DDF0;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #80658E;
+}
+
+/* Main container */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Dashboard */
+.dashboard {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #E9DDF0;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.card:nth-child(2) {
+    background-color: #F3DDE5;
+}
+
+/* Form and expense sections */
+.section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+/* Input fields */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #DCCCE5;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    background-color: #80658E;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6D537B;
+}
+
+/* Expense cards */
+.expense {
+    background-color: #F8F4FA;
+    padding: 12px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* Delete button */
+.delete {
+    background-color: #EBC6D3;
+    color: #754456;
+}
+
+/* Error message */
+#error {
+    color: #C45D70;
+}
+
+/* Footer */
+footer {
+    background-color: #E9DDF0;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Mobile screen */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .dashboard {
+        flex-direction: column;
+    }
+
+    .card {
+        width: auto;
+    }
+}
